@@ -9,9 +9,10 @@ public class SumarNaturalesHasta {
     public static void sumarNaturalesHasta() {
         System.out.println("Ingrese un numero que defina el limite: ");
         int limite = entrada.nextInt();
+
         int numero = 0;
         int suma = 0;
-        while ( limite > numero) {
+        while (limite > numero) {
             numero ++;
            suma +=numero;
        }

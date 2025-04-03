@@ -8,6 +8,7 @@ public class Main {
     //    EvaluarAprobacion002.evaluarAprobacion();          //002
     //    ClasificarEstudiante.clasificarEstudiante();       //003
     //    SumarNumerosPares.sumarNumerosPares();             //004
-          SumarNaturalesHasta.sumarNaturalesHasta();         //005
+    //    SumarNaturalesHasta.sumarNaturalesHasta();         //005
+
     }
 }
