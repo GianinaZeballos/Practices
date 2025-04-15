@@ -15,14 +15,22 @@ public class Main {
 
 
 //CORRIDAS EN FRIO
-     //    Cadena200.cadena();                                //200 a
-     //    Cadena200.cadena2();                               //200 b
+     //   Cadena200.cadena();                                //200 a
+     //   Cadena200.cadena2();                               //200 b
      //   Switch201.switchEjemplo();                         //201
      //   Ternario202.ternario();                            //202
      //   SegundoTernario203.otroTernario();                 //203
      //   VocalConsonante204.vocalConsonante();              //204
-     //   EjemploWhile205.ejemploWhile();                      //205
-        EjemploWhile205.otroWhile();
-
+     //   EjemploWhile205.ejemploWhile();                    //205 a
+     //   EjemploWhile205.otroWhile();                       //205 b
+     //   EjemploWhile205.masWhiles();                       //205 c
+     //   Ejemplo2While206.otroWhileMas();                   //206 a
+     //   Ejemplo2While206.otroWhileMas2();                  //206 b
+     //   ForesFores207.forcito();                           //207 a
+     //   ForesFores207.forcitote();                         //207 b
+     //   ForesFores207.forReforsado();                      //207 c
+     //   ForesFores207.forConIF();                          //207 d
+        Metodos208.metodos();                              //208
     }
+
 }
