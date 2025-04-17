@@ -6,7 +6,7 @@ devuelve la suma de todos los números pares en ese rango.
 
 import static utils.Escaner.entrada;
 
-public class SumarNumerosPares {
+public class SumarNumerosPares004 {
     public static void sumarNumerosPares (){
 
         System.out.println("Ingrese dos numeros enteros\n Ingrese el primer numero (inicio): ");

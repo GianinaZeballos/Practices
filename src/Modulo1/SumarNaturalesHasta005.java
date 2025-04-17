@@ -5,7 +5,7 @@ devuelve la suma de todos los números naturales hasta ese límite. Firma de la 
 1.Complete la función sumarNaturalesHasta de manera que utilice un bucle while para sumar los números naturales
 desde 1 hasta el limite. 2.Devuelva la suma obtenida.*/
 
-public class SumarNaturalesHasta {
+public class SumarNaturalesHasta005 {
     public static void sumarNaturalesHasta() {
         System.out.println("Ingrese un numero que defina el limite: ");
         int limite = entrada.nextInt();

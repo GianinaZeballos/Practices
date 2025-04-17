@@ -54,4 +54,18 @@ public class ForesFores207 {
         System.out.println(divid);
     }
 
+    public static void fortuna() {
+        String palabra = "mesa";
+        String resultado = hacerVuelta(palabra);
+        System.out.println(resultado);
+    }
+
+    public static String hacerVuelta(String palabra) {
+        String result = "";
+        for (int p = palabra.length() - 1; p >= 0; p--) {
+            result = result + palabra.charAt(p);
+        }
+        return result;
+    }
+
 }

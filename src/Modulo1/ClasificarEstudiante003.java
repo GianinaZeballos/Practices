@@ -8,7 +8,7 @@ devuelve un mensaje indicando la categoría del estudiante. Las categorías son:
 "Aceptable" si la calificación es mayor o igual a 70 y menor que 80. -
 "Insuficiente" si la calificación es menor que 70.*/
 
-public class ClasificarEstudiante {
+public class ClasificarEstudiante003 {
     public static void clasificarEstudiante() {
         int calificacion;
         System.out.println("Ingrese la calificacion del estudiante (entre 0 y 100): ");

@@ -1,4 +1,5 @@
 package Modulo1;
+
 import static utils.Escaner.entrada;
 /*006-Complete la función 'multiplicarPorDosHasta' que toma un número entero 'limite' y
 multiplica x2 un valor inicial hasta que el resultado sea mayor que el 'limite'.
@@ -8,13 +9,19 @@ por dos un valor inicial hasta que el resultado sea mayor que el limite.
 2.Devuelva el último valor multiplicado por dos obtenido.*/
 
 
-
 public class MultiplicarPorDosHasta006 {
-    public static void multiplicarPorDosHasta(){
+    public static void multiplicarPorDosHasta() {
 
         System.out.println("Ingrese un numero que defina el limite: ");
         int limite = entrada.nextInt();
+        int valorIn = 1;
+        int resultado=0;
 
+        do {
+            resultado = valorIn *= 2;
 
-        }
+        } while (limite > valorIn);
+        System.out.println(resultado);
+
+    }
 }

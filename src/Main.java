@@ -6,12 +6,14 @@ public class Main {
     public static void main(String[] args) {
 
 //MODULO 1
-    //    EvaluarNumero001.evaluarNumero();                  //001
-    //    EvaluarAprobacion002.evaluarAprobacion();          //002
-    //    ClasificarEstudiante.clasificarEstudiante();       //003
-    //    SumarNumerosPares.sumarNumerosPares();             //004
-    //    SumarNaturalesHasta.sumarNaturalesHasta();         //005
-
+    //    EvaluarNumero001.evaluarNumero();                   //001
+    //    EvaluarAprobacion002.evaluarAprobacion();           //002
+    //    ClasificarEstudiante.clasificarEstudiante();        //003
+    //    SumarNumerosPares.sumarNumerosPares();              //004
+    //    SumarNaturalesHasta.sumarNaturalesHasta();          //005
+    //    MultiplicarPorDosHasta006.multiplicarPorDosHasta(); //006
+    //    ContarDigitos007.contarDigitos(6099);               //007
+          CalcularCuadrado008.calcularQadra2();               //008
 
 
 //CORRIDAS EN FRIO
@@ -30,7 +32,8 @@ public class Main {
      //   ForesFores207.forcitote();                         //207 b
      //   ForesFores207.forReforsado();                      //207 c
      //   ForesFores207.forConIF();                          //207 d
-        Metodos208.metodos();                              //208
+     //   ForesFores207.fortuna();                           //207 e
+     //  Metodos208.metodos();                               //208
     }
 
 }
