@@ -8,6 +8,26 @@ public class InvertirNumero010 {
     public static void invertirNum() {
         System.out.println("Ingrese un numero: ");
         int numero = entrada.nextInt();
-        for (int i=
+        int resto;
+        int invertir = 0;
+        for (int i = numero; numero > 0; i++) {
+            resto = numero % 10;
+            invertir = invertir * 10 + resto;
+            numero /= 10;
+
+        }
+        System.out.println("Número invertido: " + invertir);
+
     }
 }
+
+/*int invertirNumero(int numero) {
+    int invertido = 0;
+    while (numero != 0) {
+        invertido = invertido * 10 + numero % 10;
+        numero /= 10;
+    }
+    return invertido;
+}
+
+*/

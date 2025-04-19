@@ -13,7 +13,8 @@ public class Main {
     //    SumarNaturalesHasta.sumarNaturalesHasta();          //005
     //    MultiplicarPorDosHasta006.multiplicarPorDosHasta(); //006
     //    ContarDigitos007.contarDigitos(6099);               //007
-          CalcularCuadrado008.calcularQadra2();               //008
+    //    CalcularCuadrado008.calcularQadra2();               //008
+          InvertirNumero010.invertirNum();
 
 
 //CORRIDAS EN FRIO
